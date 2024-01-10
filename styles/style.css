@@ -1,10 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
-* {
-  padding: 0;
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600&display=swap");
+html {
+  font-size: 100%;
   box-sizing: border-box;
 }
 
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+}
+
 body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-ai-c {
+  align-items: center;
+}
+
+.header {
+  padding: 31px 19px;
+  background-color: hsl(193, 100%, 96%);
+}
+.header__logo {
+  height: 20px;
+}
+.header__logo > img {
+  width: 126px;
+}
+.header__btn button {
+  height: 31px;
+  width: 118px;
+  border-radius: 15px;
+  border: none;
+  background-color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  box-shadow: 0px 0px 3px 1px hsl(208, 11%, 55%);
 }/*# sourceMappingURL=style.css.map */

@@ -1,9 +1,0 @@
-@import "reset";
-@import "variables";
-@import "mixin";
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
-
-@function weight($weights) {
-    @return map-get($font-weights, $weights);
-}
