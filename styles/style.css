@@ -41,6 +41,10 @@ body {
   justify-content: center;
 }
 
+.tx-a {
+  text-align: center;
+}
+
 .header {
   padding: 31px 19px;
   background-color: hsl(193, 100%, 96%);
