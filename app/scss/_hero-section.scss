@@ -1,8 +1,15 @@
 .hero-section {
-    width: 80%;
-    height: 600px;
-    margin: 0 auto;
+   height: 600px;
+   background-color: $paleCyan;
     
+    
+
+    &__des {
+        width: 80%;
+        margin: 0 auto;
+        background-color: $paleCyan;
+    }
+
     &__mockups {
         
         > img {
@@ -22,8 +29,5 @@
     //     }
     // }
 
-    &__title {
-        
-    }
 }
 
