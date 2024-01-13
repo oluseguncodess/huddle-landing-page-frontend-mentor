@@ -1,33 +1,71 @@
 .hero-section {
-   height: 600px;
+   height: 900px;
    background-color: $paleCyan;
-    
-    
+   z-index: -1;
+   position: relative;
 
-    &__des {
+    &__container {
         width: 80%;
         margin: 0 auto;
-        background-color: $paleCyan;
+        max-width: 550px;
+    }
+
+
+    &__title {
+        font-size: 1.9rem;
+        line-height: 1.55;
+        font-weight: $fw-700;
+        font-family: $poppins;
+        margin: 60px 0 30px;
+    }
+
+    &__description {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        margin-bottom: 50px;
+        // width: 365px;
+    }
+
+    &__des {
+
+        > a {
+            width: 80%;
+        }
+    }
+
+    &__btn {
+        width: 100%;
+        min-width: 136.5px;
+        border-radius: 80px;
+        border: none;
+        padding: 17px;
+        color: $white;
+        background-color: $pink;
+        font-size: 0.9rem;
+        margin-bottom: 67px;
     }
 
     &__mockups {
+       max-width: 600px;
         
+        > img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+
+    &__image {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+
         > img {
             width: 100%;
             height: 100%;
             object-fit: contain;
         }
     }
-
-    // &__image {
-    //     width: 100%;
-
-    //     > img {
-    //         width: 100%;
-    //         height: 100%;
-    //         object-fit: contain;
-    //     }
-    // }
 
 }
 
