@@ -1,5 +1,5 @@
 .hero-section {
-   height: 900px;
+   height: 850px;
    background-color: $paleCyan;
    z-index: -1;
    position: relative;
@@ -8,6 +8,7 @@
         width: 80%;
         margin: 0 auto;
         max-width: 550px;
+        min-width: 245px;
     }
 
 
@@ -23,7 +24,6 @@
         font-size: 1.2rem;
         opacity: 0.9;
         margin-bottom: 50px;
-        // width: 365px;
     }
 
     &__des {
@@ -46,7 +46,7 @@
     }
 
     &__mockups {
-       max-width: 600px;
+       width: 100%;
         
         > img {
             width: 100%;

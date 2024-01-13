@@ -65,7 +65,7 @@ body {
 }
 
 .hero-section {
-  height: 900px;
+  height: 850px;
   background-color: hsl(193, 100%, 96%);
   z-index: -1;
   position: relative;
@@ -74,6 +74,7 @@ body {
   width: 80%;
   margin: 0 auto;
   max-width: 550px;
+  min-width: 245px;
 }
 .hero-section__title {
   font-size: 1.9rem;
@@ -102,7 +103,7 @@ body {
   margin-bottom: 67px;
 }
 .hero-section__mockups {
-  max-width: 600px;
+  width: 100%;
 }
 .hero-section__mockups > img {
   width: 100%;
@@ -120,4 +121,43 @@ body {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.about-us {
+  padding-top: 70px;
+}
+.about-us__section {
+  width: 90%;
+  margin: 0 auto;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 2px -1px 17px hsl(208, 11%, 55%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-us__section:not(:last-child) {
+  margin-bottom: 40px;
+}
+.about-us__images {
+  width: 60%;
+  margin: 0 auto;
+  max-width: 300px;
+}
+.about-us__images > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.about-us__title {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  margin: 70px 0 20px;
+}
+.about-us__paragraph {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.12rem;
 }/*# sourceMappingURL=style.css.map */
