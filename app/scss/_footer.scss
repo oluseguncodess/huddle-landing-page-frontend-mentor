@@ -1,0 +1,19 @@
+.footer {
+    // background-color: $darkCyan;
+
+    &__info {
+
+    }
+
+    &__logo {
+        
+    }
+
+    &__location {
+
+        >img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}

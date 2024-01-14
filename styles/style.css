@@ -125,6 +125,7 @@ body {
 
 .about-us {
   padding-top: 70px;
+  margin-bottom: 260px;
 }
 .about-us__section {
   width: 90%;
@@ -160,4 +161,9 @@ body {
   width: 80%;
   margin: 0 auto;
   font-size: 1.12rem;
+}
+
+.footer__location > img {
+  width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
