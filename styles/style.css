@@ -172,12 +172,17 @@ body {
 
 .footer {
   background-color: hsl(192, 100%, 9%);
+  padding: 120px 0 60px 20px;
+  height: 800px;
 }
 .footer p, .footer h1 {
   color: hsl(0, 0%, 100%);
 }
 .footer__info p {
   opacity: 0.8;
+}
+.footer__info :not(:last-child) {
+  margin-bottom: 20px;
 }
 .footer__logo .logo {
   width: 40px;
@@ -200,8 +205,8 @@ body {
   color: hsl(0, 0%, 100%);
 }
 .footer__social-icons {
-  min-width: 40px;
-  min-height: 40px;
+  min-width: 10px;
+  min-height: 10px;
 }
 .footer__social-icons > img {
   width: 100%;
@@ -210,6 +215,6 @@ body {
      object-fit: contain;
 }
 .footer__icons {
-  width: 30px;
+  min-width: 30px;
   height: 30px;
 }/*# sourceMappingURL=style.css.map */
