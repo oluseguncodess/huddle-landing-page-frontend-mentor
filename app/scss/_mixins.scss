@@ -1,0 +1,16 @@
+// mixins 
+
+$break-points: ( "mobile": 50em, "laptop": 64em );
+
+// Testing if map is working.
+// .demo::after {
+//     content: map-get($break-points, mobile);
+// }
+
+@mixin breaks ($key) {
+    $size: map-get($break-points, $key);
+
+    @media (max-width: $size) {
+        @content
+    }
+}
