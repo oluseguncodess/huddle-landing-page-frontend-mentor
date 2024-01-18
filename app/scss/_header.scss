@@ -21,10 +21,7 @@
             background-color: $white;
             font-weight: $fw-600;
             box-shadow: 0px 0px 3px 1px $greyishBlue;
-
-            @include breaks(mobile) {
-                display: none;
-            }
+            
 
         }
 

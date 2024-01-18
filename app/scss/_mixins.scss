@@ -10,7 +10,7 @@ $break-points: ( "mobile": 50em, "laptop": 64em );
 @mixin breaks ($key) {
     $size: map-get($break-points, $key);
 
-    @media (max-width: $size) {
+    @media (min-width: $size) {
         @content
     }
 }
