@@ -43,6 +43,10 @@
         color: $white
     }
 
+    &__menu li > a:hover {
+        text-decoration: underline;
+    }
+
     &__menu :not(:last-child) {
         margin-bottom: 20px;
     }
@@ -66,4 +70,26 @@
     &__social-links :not(:last-child) {
         margin-bottom: 20px;
     }    
+}
+
+@include breaks(mobile) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        height: 600px;
+
+        &__info {
+            width: 40%;
+        }
+
+        &__logo {
+            
+        }
+
+        &__icons {
+            width: 20px;
+            height: 20px;
+        }
+    }
 }

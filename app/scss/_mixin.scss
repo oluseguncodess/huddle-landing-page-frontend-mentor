@@ -3,3 +3,19 @@
         
     }
 };
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexRow {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.details {
+    @include flexRow();
+}
