@@ -51,7 +51,7 @@ body {
      object-fit: contain;
 }
 
-.menu-1 {
+.menu {
   margin-bottom: 20px;
 }
 
@@ -343,15 +343,21 @@ body {
 @media (min-width: 50.0635em) {
   .footer {
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
     height: 600px;
   }
   .footer__info {
-    width: 40%;
+    width: 35%;
   }
   .footer__icons {
     width: 20px;
     height: 20px;
+  }
+  .footer__nav {
+    height: 140px;
+  }
+  .footer__social-links {
+    height: 140px;
   }
 }/*# sourceMappingURL=style.css.map */
