@@ -283,7 +283,7 @@ body {
 }
 .footer {
   background-color: hsl(192, 100%, 9%);
-  padding: 120px 20px 60px 20px;
+  padding: 180px 20px 60px 20px;
   height: 1000px;
 }
 .footer p, .footer h1 {
@@ -361,6 +361,10 @@ body {
     height: 140px;
   }
 }
+.main {
+  position: relative;
+}
+
 .call-to-action {
   width: 90%;
   margin: 20px auto 20px;
@@ -368,6 +372,11 @@ body {
   border-radius: 25px;
   box-shadow: 2px -1px 17px hsl(208, 11%, 55%);
   gap: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 875px;
+  background-color: hsl(0, 0%, 100%);
 }
 .call-to-action > a {
   width: 80%;
@@ -393,5 +402,6 @@ body {
 @media (min-width: 50em) {
   .call-to-action {
     width: 60%;
+    bottom: 475px;
   }
 }/*# sourceMappingURL=style.css.map */
