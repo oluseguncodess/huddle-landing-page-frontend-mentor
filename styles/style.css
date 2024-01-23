@@ -289,6 +289,12 @@ body {
 .footer p, .footer h1 {
   color: hsl(0, 0%, 100%);
 }
+.footer p {
+  font-size: 1rem;
+}
+.footer h1 {
+  font-size: 1.75rem;
+}
 .footer__info p {
   opacity: 0.8;
 }
@@ -312,9 +318,13 @@ body {
 .footer__location, .footer__gmail, .footer__telephone {
   gap: 20px;
 }
+.footer__nav-menu {
+  width: 150px;
+}
 .footer__menu li > a {
   text-decoration: none;
   color: hsl(0, 0%, 100%);
+  font-size: 1rem;
 }
 .footer__menu li > a:hover {
   text-decoration: underline;
@@ -333,8 +343,8 @@ body {
      object-fit: contain;
 }
 .footer__icons {
-  min-width: 30px;
-  height: 30px;
+  min-width: 20px;
+  height: 20px;
 }
 .footer__social-links :not(:last-child) {
   margin-bottom: 20px;
@@ -359,6 +369,9 @@ body {
   }
   .footer__social-links {
     height: 140px;
+  }
+  .footer > div:not(:last-child) {
+    margin-right: 40px;
   }
 }
 .main {
